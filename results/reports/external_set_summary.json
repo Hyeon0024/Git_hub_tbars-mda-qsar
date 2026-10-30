@@ -1,0 +1,79 @@
+{
+  "text_rule": {
+    "n_naming_thiobarbituric": 348,
+    "n_tagged_by_rule": 129,
+    "n_missed": 219
+  },
+  "external_set": {
+    "n_structures": 41,
+    "n_publications": 5,
+    "publications": [
+      "10.1016/j.bmc.2012.07.048",
+      "10.1016/j.bmcl.2011.03.077",
+      "10.1016/j.ejmech.2009.12.032",
+      "10.1016/j.ejmech.2014.03.037",
+      "10.1021/np500953e"
+    ],
+    "tissue_counts": {
+      "brain": 19,
+      "liver": 19,
+      "microsome": 3
+    },
+    "inducer_counts": {
+      "other": 34,
+      "fe_ascorbate": 7
+    },
+    "n_within_domain": 12
+  },
+  "performance": {
+    "all": {
+      "label": "all external",
+      "n": 41,
+      "r2": -0.3849061158881595,
+      "rmse": 0.7392211403991514,
+      "mae": 0.6212264950731536,
+      "mean_signed_error": 0.3885875619140029,
+      "median_signed_error": 0.4604483209137875,
+      "n_underpredicted": 10,
+      "observed_mean": 4.45641065254185,
+      "offset_from_training_mean": -0.3453497237731247
+    },
+    "within_domain": {
+      "label": "within domain",
+      "n": 12,
+      "r2": -0.14981193394425119,
+      "rmse": 0.6966894197681638,
+      "mae": 0.5831913040514052,
+      "mean_signed_error": -0.1747189637914599,
+      "median_signed_error": -0.46362250544447337,
+      "n_underpredicted": 9,
+      "observed_mean": 4.880568055029816,
+      "offset_from_training_mean": 0.07880767871484107
+    },
+    "outside_domain": {
+      "label": "outside domain",
+      "n": 29,
+      "r2": -1.0571422268792219,
+      "rmse": 0.7561209969659594,
+      "mae": 0.6369651948062909,
+      "mean_signed_error": 0.6216799173783323,
+      "median_signed_error": 0.6341838639072561,
+      "n_underpredicted": 1,
+      "observed_mean": 4.280897244615795,
+      "offset_from_training_mean": -0.5208631316991799
+    },
+    "brain_only": {
+      "label": "brain tissue only",
+      "n": 19,
+      "r2": -2.453179192397671,
+      "rmse": 0.9939781938870063,
+      "mae": 0.9167363283733342,
+      "mean_signed_error": 0.8723835011044244,
+      "median_signed_error": 0.8229435575456048,
+      "n_underpredicted": 1,
+      "observed_mean": 3.9569663479904733,
+      "offset_from_training_mean": -0.8447940283245012
+    }
+  },
+  "training_mean_pic50": 4.8017603763149745
+}

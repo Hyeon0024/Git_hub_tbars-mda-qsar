@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# reruns — results in results/ are the published ones and are tracked
+rerun/
+rerun_*/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

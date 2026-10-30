@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: >-
+  Descriptor-based QSAR models for TBARS/MDA lipid-peroxidation
+  inhibition
+message: >-
+  If you use this repository, please cite both the accompanying
+  article and the original measurement publications listed in
+  data/curated_structures_378.csv.
+type: software
+authors:
+  # [AUTHORS: replace with the full author list, in the order used in the
+  # article, and add ORCIDs. One entry per author.]
+  - family-names: Kim
+    given-names: Hyeon-Cheol
+    affiliation: >-
+      Forest Biomass Chemistry Laboratory, Department of Environmental
+      Materials Science, Gyeongsang National University
+license: MIT
+license-url: https://github.com/[AUTHORS]/tbars-mda-qsar/blob/main/LICENSE
+repository-code: https://github.com/[AUTHORS]/tbars-mda-qsar
+keywords:
+  - QSAR
+  - lipid peroxidation
+  - TBARS
+  - malondialdehyde
+  - molecular descriptors
+  - gradient boosting
+  - applicability domain
+  - antioxidant activity
+abstract: >-
+  Curated data, fitted model, validation code and every reported table and
+  figure for a retrospective QSAR study of TBARS/MDA lipid-peroxidation
+  inhibition. A Gradient Boosting regressor on 217 RDKit 2D descriptors was
+  fitted to 378 standardized structures compiled from published IC50 values
+  and evaluated under a random 80:20 holdout and a scaffold-grouped five-fold
+  design, against a training-mean and a 1-NN reference predictor, with a
+  distance-based applicability domain and an independent external test set.
+# [AUTHORS: once the article is accepted, add its DOI here and in README.md.]
+# preferred-citation:
+#   type: article
+#   doi: 10.xxxx/xxxxx
+#   journal: ...
+#   year: 2026

@@ -1,0 +1,83 @@
+{
+  "n_measurements": 443,
+  "n_structures": 378,
+  "n_unique_descriptions": 47,
+  "n_dois": 39,
+  "n_mass_concentration_conversions": 24,
+  "n_salt_or_mixture_smiles": 35,
+  "coverage": {
+    "matrix_substrate": {
+      "brain homogenate": 166,
+      "liver microsome": 122,
+      "liver homogenate": 66,
+      "human LDL": 36,
+      "not reported": 29,
+      "liposome / phospholipid vesicle": 20,
+      "tissue homogenate (organ not stated)": 4
+    },
+    "species_strain": {
+      "rat (strain not stated)": 160,
+      "rat (Wistar)": 116,
+      "not reported": 74,
+      "rat (Sprague-Dawley)": 63,
+      "human": 18,
+      "mouse": 9,
+      "rat (Fischer-344)": 3
+    },
+    "oxidation_initiator": {
+      "not reported": 241,
+      "Fe(II)/ascorbate": 75,
+      "Fe(II) / iron (no reductant stated)": 30,
+      "tert-butyl hydroperoxide": 24,
+      "spontaneous / endogenous": 20,
+      "ascorbate (iron not stated)": 17,
+      "azo initiator (AAPH/AMVN/ABAP)": 12,
+      "UV / photo-oxidation": 11,
+      "ascorbyl radical": 6,
+      "Cu(II)": 5,
+      "hydroxyl radical": 2
+    },
+    "reaction_time": {
+      "not reported": 215,
+      "30 mins": 60,
+      "1 hr": 57,
+      "60 mins": 35,
+      "45 mins": 34,
+      "3 hrs": 12,
+      "20 mins": 11,
+      "1.5 hrs": 9,
+      "10 mins": 6,
+      "24 hrs": 2,
+      "15 mins": 1,
+      "90 mins": 1
+    },
+    "analytical_readout": {
+      "TBARS (method not further specified)": 354,
+      "TBARS, spectrophotometric (stated)": 56,
+      "MDA formation (separation not stated)": 33
+    },
+    "readout_wording": {
+      "TBARS named": 383,
+      "MDA named": 33,
+      "TBARS and MDA both named": 27
+    },
+    "not_reported_counts": {
+      "matrix_substrate": 29,
+      "species_strain": 74,
+      "oxidation_initiator": 241,
+      "reaction_time": 215,
+      "analytical_readout": 0
+    }
+  },
+  "multi_measurement": {
+    "n_structures": 32,
+    "by_pooling_kind": {
+      "different assay conditions": 28,
+      "same description, same publication": 4
+    },
+    "pic50_span_median": 0.23775608742089993,
+    "pic50_span_max": 2.1550139637212196,
+    "n_span_above_1_log": 4,
+    "fold_range_max": 142.8939901986071
+  }
+}

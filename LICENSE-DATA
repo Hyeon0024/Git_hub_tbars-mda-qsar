@@ -1,0 +1,12 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The contents of data/, results/ and supplementary/ in this repository are
+licensed under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+The IC50 values were compiled from previously published studies. The DOI of
+each source publication is recorded in data/curated_structures_378.csv and
+data/curated_measurements_443.csv. Please cite both this repository and the
+original measurement publications.
+
+[AUTHORS: confirm this choice, or replace this file, before making the
+repository public.]

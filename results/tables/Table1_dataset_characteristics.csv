@@ -1,0 +1,14 @@
+﻿quantity,value
+Curated structures,378.0
+Underlying measurements,443.0
+Distinct generic Bemis-Murcko scaffolds,118.0
+RDKit 2D descriptors computed,217.0
+Descriptor columns with missing values,12.0
+"pIC50, all structures: mean",4.83
+"pIC50, all structures: SD",0.776
+Training set: n,302.0
+Training set: pIC50 mean,4.802
+Training set: pIC50 SD,0.748
+Holdout set: n,76.0
+Holdout set: pIC50 mean,4.944
+Holdout set: pIC50 SD,0.873

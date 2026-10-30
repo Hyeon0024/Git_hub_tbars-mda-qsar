@@ -1,0 +1,12 @@
+# Pinned to the versions used for the published results (Python 3.13.17).
+# Other versions may reproduce different numbers: the tree ensembles and the
+# descriptor set both change between releases.
+rdkit==2025.09.6
+scikit-learn==1.9.0
+xgboost==3.4.1
+shap==0.52.0
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+joblib==1.6.0
+matplotlib==3.11.2

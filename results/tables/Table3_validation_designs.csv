@@ -1,0 +1,7 @@
+﻿validation_design,n_evaluated,predictor,r2,rmse,mae
+Random 80:20 holdout (Section 2.3),76,Gradient Boosting,0.7402,0.4419,0.313
+Random 80:20 holdout (Section 2.3),76,"Nearest training structure (1-NN, descriptor distance)",0.6105,0.5411,0.3965
+Random 80:20 holdout (Section 2.3),76,Training-set mean,-0.0268,0.8785,0.7216
+Scaffold-grouped five-fold (Section 2.4),378,Gradient Boosting,0.5125,0.5408,0.407
+Scaffold-grouped five-fold (Section 2.4),378,"Nearest training structure (1-NN, descriptor distance)",-0.02,0.7822,0.5523
+Scaffold-grouped five-fold (Section 2.4),378,Training-set mean,-0.0229,0.7833,0.6274

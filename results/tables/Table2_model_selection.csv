@@ -1,0 +1,5 @@
+﻿model,cv_r2_mean,cv_r2_sd,cv_rmse_mean,cv_rmse_sd,cv_mae_mean,cv_mae_sd,holdout_r2,holdout_rmse,holdout_mae,selected_params,selected_by_training_cv
+Random Forest,0.5295,0.1405,0.5052,0.0765,0.3814,0.0441,0.7121,0.4652,0.3412,"{""reg__max_depth"": 16, ""reg__max_features"": 0.3, ""reg__min_samples_leaf"": 1, ""reg__min_samples_split"": 4, ""reg__n_estimators"": 300}",False
+XGBoost,0.5907,0.1468,0.4686,0.0858,0.3512,0.0533,0.7599,0.4249,0.3116,"{""reg__colsample_bytree"": 0.7, ""reg__learning_rate"": 0.15, ""reg__max_depth"": 2, ""reg__min_child_weight"": 5, ""reg__n_estimators"": 300, ""reg__subsample"": 0.7}",False
+Gradient Boosting,0.5958,0.1573,0.4639,0.0913,0.3516,0.065,0.7402,0.4419,0.313,"{""reg__learning_rate"": 0.075, ""reg__max_depth"": 3, ""reg__min_samples_leaf"": 5, ""reg__n_estimators"": 800, ""reg__subsample"": 0.7}",True
+Extra Trees,0.5828,0.1465,0.4745,0.087,0.3515,0.0554,0.7075,0.4689,0.3335,"{""reg__max_depth"": 16, ""reg__max_features"": 0.75, ""reg__min_samples_leaf"": 2, ""reg__min_samples_split"": 2, ""reg__n_estimators"": 100}",False
